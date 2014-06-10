@@ -12,13 +12,13 @@
 		C27A2A0B194704740008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A0A194704740008D850 /* UIKit.framework */; };
 		C27A2A11194704740008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A0F194704740008D850 /* InfoPlist.strings */; };
 		C27A2A13194704740008D850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A12194704740008D850 /* main.m */; };
-		C27A2A17194704740008D850 /* LZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A16194704740008D850 /* LZAppDelegate.m */; };
 		C27A2A19194704740008D850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A18194704740008D850 /* Images.xcassets */; };
 		C27A2A20194704740008D850 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A1F194704740008D850 /* XCTest.framework */; };
 		C27A2A21194704740008D850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A06194704740008D850 /* Foundation.framework */; };
 		C27A2A22194704740008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A0A194704740008D850 /* UIKit.framework */; };
 		C27A2A2A194704740008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A28194704740008D850 /* InfoPlist.strings */; };
 		C27A2A2C194704740008D850 /* _014_6_10_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A2B194704740008D850 /* _014_6_10_____Tests.m */; };
+		C27A2A40194705AE0008D850 /* LZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A38194705AE0008D850 /* LZAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +40,14 @@
 		C27A2A10194704740008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C27A2A12194704740008D850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C27A2A14194704740008D850 /* 2014-6-10通讯录练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-6-10通讯录练习-Prefix.pch"; sourceTree = "<group>"; };
-		C27A2A15194704740008D850 /* LZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAppDelegate.h; sourceTree = "<group>"; };
-		C27A2A16194704740008D850 /* LZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAppDelegate.m; sourceTree = "<group>"; };
 		C27A2A18194704740008D850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C27A2A1E194704740008D850 /* 2014-6-10通讯录练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-6-10通讯录练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27A2A1F194704740008D850 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C27A2A27194704740008D850 /* 2014-6-10通讯录练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-6-10通讯录练习Tests-Info.plist"; sourceTree = "<group>"; };
 		C27A2A29194704740008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C27A2A2B194704740008D850 /* _014_6_10_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_014_6_10_____Tests.m"; sourceTree = "<group>"; };
+		C27A2A37194705AE0008D850 /* LZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAppDelegate.h; sourceTree = "<group>"; };
+		C27A2A38194705AE0008D850 /* LZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,7 @@
 		C27A2A0C194704740008D850 /* 2014-6-10通讯录练习 */ = {
 			isa = PBXGroup;
 			children = (
-				C27A2A15194704740008D850 /* LZAppDelegate.h */,
-				C27A2A16194704740008D850 /* LZAppDelegate.m */,
+				C27A2A35194705AE0008D850 /* Classes */,
 				C27A2A18194704740008D850 /* Images.xcassets */,
 				C27A2A0D194704740008D850 /* Supporting Files */,
 			);
@@ -142,6 +141,79 @@
 				C27A2A28194704740008D850 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27A2A35194705AE0008D850 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C27A2A36194705AE0008D850 /* AppDelegate */,
+				C27A2A39194705AE0008D850 /* General */,
+				C27A2A3A194705AE0008D850 /* Helpers */,
+				C27A2A3B194705AE0008D850 /* Marco */,
+				C27A2A3C194705AE0008D850 /* Models */,
+				C27A2A3D194705AE0008D850 /* Resoures */,
+				C27A2A3E194705AE0008D850 /* Sences */,
+				C27A2A3F194705AE0008D850 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C27A2A36194705AE0008D850 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C27A2A37194705AE0008D850 /* LZAppDelegate.h */,
+				C27A2A38194705AE0008D850 /* LZAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C27A2A39194705AE0008D850 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		C27A2A3A194705AE0008D850 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C27A2A3B194705AE0008D850 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		C27A2A3C194705AE0008D850 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C27A2A3D194705AE0008D850 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		C27A2A3E194705AE0008D850 /* Sences */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sences;
+			sourceTree = "<group>";
+		};
+		C27A2A3F194705AE0008D850 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A2A17194704740008D850 /* LZAppDelegate.m in Sources */,
+				C27A2A40194705AE0008D850 /* LZAppDelegate.m in Sources */,
 				C27A2A13194704740008D850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2014-6-10通讯录练习/2014-6-10通讯录练习-Prefix.pch";
 				INFOPLIST_FILE = "2014-6-10通讯录练习/2014-6-10通讯录练习-Info.plist";
@@ -373,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2014-6-10通讯录练习/2014-6-10通讯录练习-Prefix.pch";
 				INFOPLIST_FILE = "2014-6-10通讯录练习/2014-6-10通讯录练习-Info.plist";
@@ -442,6 +516,7 @@
 				C27A2A31194704740008D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C27A2A32194704740008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +525,7 @@
 				C27A2A34194704740008D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
