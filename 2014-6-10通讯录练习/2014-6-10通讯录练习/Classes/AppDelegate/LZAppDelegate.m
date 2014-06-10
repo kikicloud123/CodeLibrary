@@ -1,12 +1,13 @@
 //
 //  LZAppDelegate.m
-//  2014-6-10github
+//  2014-6-10通讯录练习
 //
 //  Created by lanou3g on 14-6-10.
 //  Copyright (c) 2014年 lanou3g.com 蓝欧科技. All rights reserved.
 //
 
 #import "LZAppDelegate.h"
+#import "LZTableViewController.h"
 
 @implementation LZAppDelegate
 
@@ -14,9 +15,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor blackColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    LZTableViewController *tableVC = [[LZTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *tableNC = [[UINavigationController alloc] initWithRootViewController:tableVC];
+    self.window.rootViewController = tableNC;
 
+    [tableVC release];
+    [tableNC release];
     return YES;
 }
 

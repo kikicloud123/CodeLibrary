@@ -1,6 +1,6 @@
 //
-//  _014_6_10githubTests.m
-//  2014-6-10githubTests
+//  _014_6_10_____Tests.m
+//  2014-6-10通讯录练习Tests
 //
 //  Created by lanou3g on 14-6-10.
 //  Copyright (c) 2014年 lanou3g.com 蓝欧科技. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface _014_6_10githubTests : XCTestCase
+@interface _014_6_10_____Tests : XCTestCase
 
 @end
 
-@implementation _014_6_10githubTests
+@implementation _014_6_10_____Tests
 
 - (void)setUp
 {

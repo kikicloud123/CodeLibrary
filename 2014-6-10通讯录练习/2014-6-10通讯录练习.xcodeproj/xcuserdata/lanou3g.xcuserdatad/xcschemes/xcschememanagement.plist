@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>2014-6-10github.xcscheme</key>
+		<key>2014-6-10通讯录练习.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C27A29B81946FAF10008D850</key>
+		<key>C27A29691946F1230008D850</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C27A29D31946FAF10008D850</key>
+		<key>C27A29841946F1230008D850</key>
 		<dict>
 			<key>primary</key>
 			<true/>

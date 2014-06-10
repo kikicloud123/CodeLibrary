@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C27A29B81946FAF10008D850"
-               BuildableName = "2014-6-10github.app"
-               BlueprintName = "2014-6-10github"
-               ReferencedContainer = "container:2014-6-10github.xcodeproj">
+               BlueprintIdentifier = "C27A29691946F1230008D850"
+               BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
+               BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
+               ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C27A29D31946FAF10008D850"
-               BuildableName = "2014-6-10githubTests.xctest"
-               BlueprintName = "2014-6-10githubTests"
-               ReferencedContainer = "container:2014-6-10github.xcodeproj">
+               BlueprintIdentifier = "C27A29841946F1230008D850"
+               BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;Tests.xctest"
+               BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;Tests"
+               ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29B81946FAF10008D850"
-            BuildableName = "2014-6-10github.app"
-            BlueprintName = "2014-6-10github"
-            ReferencedContainer = "container:2014-6-10github.xcodeproj">
+            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
+            BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
+            ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29B81946FAF10008D850"
-            BuildableName = "2014-6-10github.app"
-            BlueprintName = "2014-6-10github"
-            ReferencedContainer = "container:2014-6-10github.xcodeproj">
+            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
+            BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
+            ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29B81946FAF10008D850"
-            BuildableName = "2014-6-10github.app"
-            BlueprintName = "2014-6-10github"
-            ReferencedContainer = "container:2014-6-10github.xcodeproj">
+            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
+            BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
+            ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
