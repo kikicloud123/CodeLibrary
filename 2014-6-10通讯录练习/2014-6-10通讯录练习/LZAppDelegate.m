@@ -7,7 +7,6 @@
 //
 
 #import "LZAppDelegate.h"
-#import "LZTableViewController.h"
 
 @implementation LZAppDelegate
 
@@ -17,12 +16,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    LZTableViewController *tableVC = [[LZTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    UINavigationController *tableNC = [[UINavigationController alloc] initWithRootViewController:tableVC];
-    self.window.rootViewController = tableNC;
-
-    [tableVC release];
-    [tableNC release];
     return YES;
 }
 

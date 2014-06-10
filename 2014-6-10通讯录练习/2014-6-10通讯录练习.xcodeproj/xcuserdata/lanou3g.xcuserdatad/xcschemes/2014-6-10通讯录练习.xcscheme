@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C27A29691946F1230008D850"
+               BlueprintIdentifier = "C27A2A02194704740008D850"
                BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
                BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
                ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C27A29841946F1230008D850"
+               BlueprintIdentifier = "C27A2A1D194704740008D850"
                BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;Tests.xctest"
                BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;Tests"
                ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BlueprintIdentifier = "C27A2A02194704740008D850"
             BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
             BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
             ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BlueprintIdentifier = "C27A2A02194704740008D850"
             BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
             BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
             ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27A29691946F1230008D850"
+            BlueprintIdentifier = "C27A2A02194704740008D850"
             BuildableName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.app"
             BlueprintName = "2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;"
             ReferencedContainer = "container:2014-6-10&#36890;&#35759;&#24405;&#32451;&#20064;.xcodeproj">

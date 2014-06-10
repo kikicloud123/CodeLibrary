@@ -7,270 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C27A296E1946F1230008D850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A296D1946F1230008D850 /* Foundation.framework */; };
-		C27A29701946F1230008D850 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A296F1946F1230008D850 /* CoreGraphics.framework */; };
-		C27A29721946F1230008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A29711946F1230008D850 /* UIKit.framework */; };
-		C27A29781946F1230008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A29761946F1230008D850 /* InfoPlist.strings */; };
-		C27A297A1946F1230008D850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A29791946F1230008D850 /* main.m */; };
-		C27A29801946F1230008D850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A297F1946F1230008D850 /* Images.xcassets */; };
-		C27A29871946F1230008D850 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A29861946F1230008D850 /* XCTest.framework */; };
-		C27A29881946F1230008D850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A296D1946F1230008D850 /* Foundation.framework */; };
-		C27A29891946F1230008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A29711946F1230008D850 /* UIKit.framework */; };
-		C27A29911946F1230008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A298F1946F1230008D850 /* InfoPlist.strings */; };
-		C27A29931946F1230008D850 /* _014_6_10_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A29921946F1230008D850 /* _014_6_10_____Tests.m */; };
-		C27A29AC1946F2770008D850 /* LZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A299F1946F2760008D850 /* LZAppDelegate.m */; };
-		C27A29AF1946F2A70008D850 /* LZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A29AE1946F2A70008D850 /* LZTableViewController.m */; };
+		C27A2A07194704740008D850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A06194704740008D850 /* Foundation.framework */; };
+		C27A2A09194704740008D850 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A08194704740008D850 /* CoreGraphics.framework */; };
+		C27A2A0B194704740008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A0A194704740008D850 /* UIKit.framework */; };
+		C27A2A11194704740008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A0F194704740008D850 /* InfoPlist.strings */; };
+		C27A2A13194704740008D850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A12194704740008D850 /* main.m */; };
+		C27A2A17194704740008D850 /* LZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A16194704740008D850 /* LZAppDelegate.m */; };
+		C27A2A19194704740008D850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A18194704740008D850 /* Images.xcassets */; };
+		C27A2A20194704740008D850 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A1F194704740008D850 /* XCTest.framework */; };
+		C27A2A21194704740008D850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A06194704740008D850 /* Foundation.framework */; };
+		C27A2A22194704740008D850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27A2A0A194704740008D850 /* UIKit.framework */; };
+		C27A2A2A194704740008D850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27A2A28194704740008D850 /* InfoPlist.strings */; };
+		C27A2A2C194704740008D850 /* _014_6_10_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A2A2B194704740008D850 /* _014_6_10_____Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C27A298A1946F1230008D850 /* PBXContainerItemProxy */ = {
+		C27A2A23194704740008D850 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C27A29621946F1230008D850 /* Project object */;
+			containerPortal = C27A29FB194704740008D850 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C27A29691946F1230008D850;
+			remoteGlobalIDString = C27A2A02194704740008D850;
 			remoteInfo = "2014-6-10通讯录练习";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C27A296A1946F1230008D850 /* 2014-6-10通讯录练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2014-6-10通讯录练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C27A296D1946F1230008D850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C27A296F1946F1230008D850 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C27A29711946F1230008D850 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C27A29751946F1230008D850 /* 2014-6-10通讯录练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-6-10通讯录练习-Info.plist"; sourceTree = "<group>"; };
-		C27A29771946F1230008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C27A29791946F1230008D850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C27A297B1946F1230008D850 /* 2014-6-10通讯录练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-6-10通讯录练习-Prefix.pch"; sourceTree = "<group>"; };
-		C27A297F1946F1230008D850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C27A29851946F1230008D850 /* 2014-6-10通讯录练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-6-10通讯录练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C27A29861946F1230008D850 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C27A298E1946F1230008D850 /* 2014-6-10通讯录练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-6-10通讯录练习Tests-Info.plist"; sourceTree = "<group>"; };
-		C27A29901946F1230008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C27A29921946F1230008D850 /* _014_6_10_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_014_6_10_____Tests.m"; sourceTree = "<group>"; };
-		C27A299E1946F2760008D850 /* LZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAppDelegate.h; sourceTree = "<group>"; };
-		C27A299F1946F2760008D850 /* LZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAppDelegate.m; sourceTree = "<group>"; };
-		C27A29AD1946F2A70008D850 /* LZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableViewController.h; sourceTree = "<group>"; };
-		C27A29AE1946F2A70008D850 /* LZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableViewController.m; sourceTree = "<group>"; };
+		C27A2A03194704740008D850 /* 2014-6-10通讯录练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2014-6-10通讯录练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A2A06194704740008D850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C27A2A08194704740008D850 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C27A2A0A194704740008D850 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C27A2A0E194704740008D850 /* 2014-6-10通讯录练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-6-10通讯录练习-Info.plist"; sourceTree = "<group>"; };
+		C27A2A10194704740008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C27A2A12194704740008D850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C27A2A14194704740008D850 /* 2014-6-10通讯录练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-6-10通讯录练习-Prefix.pch"; sourceTree = "<group>"; };
+		C27A2A15194704740008D850 /* LZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAppDelegate.h; sourceTree = "<group>"; };
+		C27A2A16194704740008D850 /* LZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAppDelegate.m; sourceTree = "<group>"; };
+		C27A2A18194704740008D850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C27A2A1E194704740008D850 /* 2014-6-10通讯录练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-6-10通讯录练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A2A1F194704740008D850 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C27A2A27194704740008D850 /* 2014-6-10通讯录练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-6-10通讯录练习Tests-Info.plist"; sourceTree = "<group>"; };
+		C27A2A29194704740008D850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C27A2A2B194704740008D850 /* _014_6_10_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_014_6_10_____Tests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C27A29671946F1230008D850 /* Frameworks */ = {
+		C27A2A00194704740008D850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29701946F1230008D850 /* CoreGraphics.framework in Frameworks */,
-				C27A29721946F1230008D850 /* UIKit.framework in Frameworks */,
-				C27A296E1946F1230008D850 /* Foundation.framework in Frameworks */,
+				C27A2A09194704740008D850 /* CoreGraphics.framework in Frameworks */,
+				C27A2A0B194704740008D850 /* UIKit.framework in Frameworks */,
+				C27A2A07194704740008D850 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27A29821946F1230008D850 /* Frameworks */ = {
+		C27A2A1B194704740008D850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29871946F1230008D850 /* XCTest.framework in Frameworks */,
-				C27A29891946F1230008D850 /* UIKit.framework in Frameworks */,
-				C27A29881946F1230008D850 /* Foundation.framework in Frameworks */,
+				C27A2A20194704740008D850 /* XCTest.framework in Frameworks */,
+				C27A2A22194704740008D850 /* UIKit.framework in Frameworks */,
+				C27A2A21194704740008D850 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C27A29611946F1230008D850 = {
+		C27A29FA194704740008D850 = {
 			isa = PBXGroup;
 			children = (
-				C27A29731946F1230008D850 /* 2014-6-10通讯录练习 */,
-				C27A298C1946F1230008D850 /* 2014-6-10通讯录练习Tests */,
-				C27A296C1946F1230008D850 /* Frameworks */,
-				C27A296B1946F1230008D850 /* Products */,
+				C27A2A0C194704740008D850 /* 2014-6-10通讯录练习 */,
+				C27A2A25194704740008D850 /* 2014-6-10通讯录练习Tests */,
+				C27A2A05194704740008D850 /* Frameworks */,
+				C27A2A04194704740008D850 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C27A296B1946F1230008D850 /* Products */ = {
+		C27A2A04194704740008D850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C27A296A1946F1230008D850 /* 2014-6-10通讯录练习.app */,
-				C27A29851946F1230008D850 /* 2014-6-10通讯录练习Tests.xctest */,
+				C27A2A03194704740008D850 /* 2014-6-10通讯录练习.app */,
+				C27A2A1E194704740008D850 /* 2014-6-10通讯录练习Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C27A296C1946F1230008D850 /* Frameworks */ = {
+		C27A2A05194704740008D850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C27A296D1946F1230008D850 /* Foundation.framework */,
-				C27A296F1946F1230008D850 /* CoreGraphics.framework */,
-				C27A29711946F1230008D850 /* UIKit.framework */,
-				C27A29861946F1230008D850 /* XCTest.framework */,
+				C27A2A06194704740008D850 /* Foundation.framework */,
+				C27A2A08194704740008D850 /* CoreGraphics.framework */,
+				C27A2A0A194704740008D850 /* UIKit.framework */,
+				C27A2A1F194704740008D850 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C27A29731946F1230008D850 /* 2014-6-10通讯录练习 */ = {
+		C27A2A0C194704740008D850 /* 2014-6-10通讯录练习 */ = {
 			isa = PBXGroup;
 			children = (
-				C27A299C1946F2760008D850 /* Classes */,
-				C27A297F1946F1230008D850 /* Images.xcassets */,
-				C27A29741946F1230008D850 /* Supporting Files */,
+				C27A2A15194704740008D850 /* LZAppDelegate.h */,
+				C27A2A16194704740008D850 /* LZAppDelegate.m */,
+				C27A2A18194704740008D850 /* Images.xcassets */,
+				C27A2A0D194704740008D850 /* Supporting Files */,
 			);
 			path = "2014-6-10通讯录练习";
 			sourceTree = "<group>";
 		};
-		C27A29741946F1230008D850 /* Supporting Files */ = {
+		C27A2A0D194704740008D850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C27A29751946F1230008D850 /* 2014-6-10通讯录练习-Info.plist */,
-				C27A29761946F1230008D850 /* InfoPlist.strings */,
-				C27A29791946F1230008D850 /* main.m */,
-				C27A297B1946F1230008D850 /* 2014-6-10通讯录练习-Prefix.pch */,
+				C27A2A0E194704740008D850 /* 2014-6-10通讯录练习-Info.plist */,
+				C27A2A0F194704740008D850 /* InfoPlist.strings */,
+				C27A2A12194704740008D850 /* main.m */,
+				C27A2A14194704740008D850 /* 2014-6-10通讯录练习-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C27A298C1946F1230008D850 /* 2014-6-10通讯录练习Tests */ = {
+		C27A2A25194704740008D850 /* 2014-6-10通讯录练习Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C27A29921946F1230008D850 /* _014_6_10_____Tests.m */,
-				C27A298D1946F1230008D850 /* Supporting Files */,
+				C27A2A2B194704740008D850 /* _014_6_10_____Tests.m */,
+				C27A2A26194704740008D850 /* Supporting Files */,
 			);
 			path = "2014-6-10通讯录练习Tests";
 			sourceTree = "<group>";
 		};
-		C27A298D1946F1230008D850 /* Supporting Files */ = {
+		C27A2A26194704740008D850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C27A298E1946F1230008D850 /* 2014-6-10通讯录练习Tests-Info.plist */,
-				C27A298F1946F1230008D850 /* InfoPlist.strings */,
+				C27A2A27194704740008D850 /* 2014-6-10通讯录练习Tests-Info.plist */,
+				C27A2A28194704740008D850 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C27A299C1946F2760008D850 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C27A299D1946F2760008D850 /* AppDelegate */,
-				C27A29A81946F2770008D850 /* Sences */,
-				C27A29A01946F2760008D850 /* General */,
-				C27A29A41946F2760008D850 /* Helpers */,
-				C27A29A51946F2760008D850 /* Marco */,
-				C27A29A61946F2760008D850 /* Models */,
-				C27A29A71946F2760008D850 /* Resources */,
-				C27A29AB1946F2770008D850 /* Vendors */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C27A299D1946F2760008D850 /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				C27A299E1946F2760008D850 /* LZAppDelegate.h */,
-				C27A299F1946F2760008D850 /* LZAppDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		C27A29A01946F2760008D850 /* General */ = {
-			isa = PBXGroup;
-			children = (
-				C27A29A11946F2760008D850 /* Category */,
-				C27A29A21946F2760008D850 /* ViewControllers */,
-				C27A29A31946F2760008D850 /* Views */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		C27A29A11946F2760008D850 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		C27A29A21946F2760008D850 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		C27A29A31946F2760008D850 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		C27A29A41946F2760008D850 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		C27A29A51946F2760008D850 /* Marco */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Marco;
-			sourceTree = "<group>";
-		};
-		C27A29A61946F2760008D850 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		C27A29A71946F2760008D850 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C27A29A81946F2770008D850 /* Sences */ = {
-			isa = PBXGroup;
-			children = (
-				C27A29A91946F2770008D850 /* viewControllers */,
-				C27A29AA1946F2770008D850 /* views */,
-			);
-			path = Sences;
-			sourceTree = "<group>";
-		};
-		C27A29A91946F2770008D850 /* viewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				C27A29AD1946F2A70008D850 /* LZTableViewController.h */,
-				C27A29AE1946F2A70008D850 /* LZTableViewController.m */,
-			);
-			path = viewControllers;
-			sourceTree = "<group>";
-		};
-		C27A29AA1946F2770008D850 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		C27A29AB1946F2770008D850 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C27A29691946F1230008D850 /* 2014-6-10通讯录练习 */ = {
+		C27A2A02194704740008D850 /* 2014-6-10通讯录练习 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C27A29961946F1230008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习" */;
+			buildConfigurationList = C27A2A2F194704740008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习" */;
 			buildPhases = (
-				C27A29661946F1230008D850 /* Sources */,
-				C27A29671946F1230008D850 /* Frameworks */,
-				C27A29681946F1230008D850 /* Resources */,
+				C27A29FF194704740008D850 /* Sources */,
+				C27A2A00194704740008D850 /* Frameworks */,
+				C27A2A01194704740008D850 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,122 +161,121 @@
 			);
 			name = "2014-6-10通讯录练习";
 			productName = "2014-6-10通讯录练习";
-			productReference = C27A296A1946F1230008D850 /* 2014-6-10通讯录练习.app */;
+			productReference = C27A2A03194704740008D850 /* 2014-6-10通讯录练习.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C27A29841946F1230008D850 /* 2014-6-10通讯录练习Tests */ = {
+		C27A2A1D194704740008D850 /* 2014-6-10通讯录练习Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C27A29991946F1230008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习Tests" */;
+			buildConfigurationList = C27A2A32194704740008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习Tests" */;
 			buildPhases = (
-				C27A29811946F1230008D850 /* Sources */,
-				C27A29821946F1230008D850 /* Frameworks */,
-				C27A29831946F1230008D850 /* Resources */,
+				C27A2A1A194704740008D850 /* Sources */,
+				C27A2A1B194704740008D850 /* Frameworks */,
+				C27A2A1C194704740008D850 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C27A298B1946F1230008D850 /* PBXTargetDependency */,
+				C27A2A24194704740008D850 /* PBXTargetDependency */,
 			);
 			name = "2014-6-10通讯录练习Tests";
 			productName = "2014-6-10通讯录练习Tests";
-			productReference = C27A29851946F1230008D850 /* 2014-6-10通讯录练习Tests.xctest */;
+			productReference = C27A2A1E194704740008D850 /* 2014-6-10通讯录练习Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C27A29621946F1230008D850 /* Project object */ = {
+		C27A29FB194704740008D850 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LZ;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "lanou3g.com 蓝欧科技";
 				TargetAttributes = {
-					C27A29841946F1230008D850 = {
-						TestTargetID = C27A29691946F1230008D850;
+					C27A2A1D194704740008D850 = {
+						TestTargetID = C27A2A02194704740008D850;
 					};
 				};
 			};
-			buildConfigurationList = C27A29651946F1230008D850 /* Build configuration list for PBXProject "2014-6-10通讯录练习" */;
+			buildConfigurationList = C27A29FE194704740008D850 /* Build configuration list for PBXProject "2014-6-10通讯录练习" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C27A29611946F1230008D850;
-			productRefGroup = C27A296B1946F1230008D850 /* Products */;
+			mainGroup = C27A29FA194704740008D850;
+			productRefGroup = C27A2A04194704740008D850 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C27A29691946F1230008D850 /* 2014-6-10通讯录练习 */,
-				C27A29841946F1230008D850 /* 2014-6-10通讯录练习Tests */,
+				C27A2A02194704740008D850 /* 2014-6-10通讯录练习 */,
+				C27A2A1D194704740008D850 /* 2014-6-10通讯录练习Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C27A29681946F1230008D850 /* Resources */ = {
+		C27A2A01194704740008D850 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29781946F1230008D850 /* InfoPlist.strings in Resources */,
-				C27A29801946F1230008D850 /* Images.xcassets in Resources */,
+				C27A2A11194704740008D850 /* InfoPlist.strings in Resources */,
+				C27A2A19194704740008D850 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27A29831946F1230008D850 /* Resources */ = {
+		C27A2A1C194704740008D850 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29911946F1230008D850 /* InfoPlist.strings in Resources */,
+				C27A2A2A194704740008D850 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C27A29661946F1230008D850 /* Sources */ = {
+		C27A29FF194704740008D850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29AC1946F2770008D850 /* LZAppDelegate.m in Sources */,
-				C27A29AF1946F2A70008D850 /* LZTableViewController.m in Sources */,
-				C27A297A1946F1230008D850 /* main.m in Sources */,
+				C27A2A17194704740008D850 /* LZAppDelegate.m in Sources */,
+				C27A2A13194704740008D850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27A29811946F1230008D850 /* Sources */ = {
+		C27A2A1A194704740008D850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27A29931946F1230008D850 /* _014_6_10_____Tests.m in Sources */,
+				C27A2A2C194704740008D850 /* _014_6_10_____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C27A298B1946F1230008D850 /* PBXTargetDependency */ = {
+		C27A2A24194704740008D850 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C27A29691946F1230008D850 /* 2014-6-10通讯录练习 */;
-			targetProxy = C27A298A1946F1230008D850 /* PBXContainerItemProxy */;
+			target = C27A2A02194704740008D850 /* 2014-6-10通讯录练习 */;
+			targetProxy = C27A2A23194704740008D850 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C27A29761946F1230008D850 /* InfoPlist.strings */ = {
+		C27A2A0F194704740008D850 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C27A29771946F1230008D850 /* en */,
+				C27A2A10194704740008D850 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C27A298F1946F1230008D850 /* InfoPlist.strings */ = {
+		C27A2A28194704740008D850 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C27A29901946F1230008D850 /* en */,
+				C27A2A29194704740008D850 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -401,7 +283,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C27A29941946F1230008D850 /* Debug */ = {
+		C27A2A2D194704740008D850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,7 +322,7 @@
 			};
 			name = Debug;
 		};
-		C27A29951946F1230008D850 /* Release */ = {
+		C27A2A2E194704740008D850 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -473,12 +355,11 @@
 			};
 			name = Release;
 		};
-		C27A29971946F1230008D850 /* Debug */ = {
+		C27A2A30194704740008D850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2014-6-10通讯录练习/2014-6-10通讯录练习-Prefix.pch";
 				INFOPLIST_FILE = "2014-6-10通讯录练习/2014-6-10通讯录练习-Info.plist";
@@ -487,12 +368,11 @@
 			};
 			name = Debug;
 		};
-		C27A29981946F1230008D850 /* Release */ = {
+		C27A2A31194704740008D850 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2014-6-10通讯录练习/2014-6-10通讯录练习-Prefix.pch";
 				INFOPLIST_FILE = "2014-6-10通讯录练习/2014-6-10通讯录练习-Info.plist";
@@ -501,7 +381,7 @@
 			};
 			name = Release;
 		};
-		C27A299A1946F1230008D850 /* Debug */ = {
+		C27A2A33194704740008D850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -524,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		C27A299B1946F1230008D850 /* Release */ = {
+		C27A2A34194704740008D850 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -546,32 +426,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C27A29651946F1230008D850 /* Build configuration list for PBXProject "2014-6-10通讯录练习" */ = {
+		C27A29FE194704740008D850 /* Build configuration list for PBXProject "2014-6-10通讯录练习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C27A29941946F1230008D850 /* Debug */,
-				C27A29951946F1230008D850 /* Release */,
+				C27A2A2D194704740008D850 /* Debug */,
+				C27A2A2E194704740008D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C27A29961946F1230008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习" */ = {
+		C27A2A2F194704740008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C27A29971946F1230008D850 /* Debug */,
-				C27A29981946F1230008D850 /* Release */,
+				C27A2A30194704740008D850 /* Debug */,
+				C27A2A31194704740008D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C27A29991946F1230008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习Tests" */ = {
+		C27A2A32194704740008D850 /* Build configuration list for PBXNativeTarget "2014-6-10通讯录练习Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C27A299A1946F1230008D850 /* Debug */,
-				C27A299B1946F1230008D850 /* Release */,
+				C27A2A33194704740008D850 /* Debug */,
+				C27A2A34194704740008D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C27A29621946F1230008D850 /* Project object */;
+	rootObject = C27A29FB194704740008D850 /* Project object */;
 }
